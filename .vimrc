@@ -1,4 +1,6 @@
 " Setup Pathogen
+" Our pahtogen setup searches the list of directories passed for configuration
+" files
 execute pathogen#infect('bundle/{}','nodejs/{}')
 
 " setup GOLANG
