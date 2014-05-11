@@ -10,9 +10,6 @@ set runtimepath+=$GOROOT/misc/vim
 filetype plugin indent on
 syntax enable
 
-" Setup Node Customizations
-set runtimepath^=~/.vim/bundle/node
-
 " Start personal customizations
 colorscheme molokai     " located in .vim/colors
 colorscheme molokai 	" located in .vim/colors
