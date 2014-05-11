@@ -16,4 +16,8 @@ One of the best documented .vimrc files on the web, custom tailored to .nodejs d
 * `indent` -- Where all indentation rules go in the form `filetype.vim`
    * `html.vim` -- https://code.google.com/p/web-indent/
    * `javascript.vim` -- https://code.google.com/p/web-indent/
-* `node.js` -- All node specific configurations. This will be loaded by pathogen.
+* `nodejs` -- All node specific configurations. This will be loaded by pathogen.
+   * `jshint.vim` -- https://github.com/walm/jshint.vim
+   * `node.vim` -- https://github.com/moll/vim-node
+   * `vim-javascript-syntax` -- https://github.com/jelera/vim-javascript-syntax
+   * `vim-nodejs-complete` -- https://github.com/myhere/vim-nodejs-complete
