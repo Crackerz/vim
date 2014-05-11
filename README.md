@@ -1,9 +1,7 @@
 #Will's Amazing Vim Configuration Files!
-===
 
 One of the best documented .vimrc files on the web, custom tailored to .nodejs development.
 
-===
 ##Folder structure
 
 * `autoload` -- http://learnvimscriptthehardway.stevelosh.com/chapters/53.html
