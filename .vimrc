@@ -12,8 +12,8 @@ syntax enable
 
 " Start personal customizations
 colorscheme molokai     " located in .vim/colors
-colorscheme molokai 	" located in .vim/colors
-set t_Co=256			" 256 bit color
+colorscheme molokai     " located in .vim/colors
+set t_Co=256            " 256 bit color
 
 set tabstop=4           " 4 spaces per tab
 set shiftwidth=4        " Indentation
