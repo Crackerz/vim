@@ -1,7 +1,7 @@
 " Setup Pathogen
 " Our pahtogen setup searches the list of directories passed for configuration
 " files
-execute pathogen#infect('bundle/{}','nodejs/{}')
+execute pathogen#infect('bundle/{}','nodejs/{}','glsl/{}','markdown/{}')
 
 " setup GOLANG
 filetype off
@@ -26,6 +26,8 @@ set cursorline          " highlight the current line
 set wildmenu            " auto complete commands
 set lazyredraw          " redraw less often
 set showmatch           " highlight matching brackets
+" Highlight trailing spaces in red
+match SpellBad /\s\+$/
 
 " Searching
 set incsearch           " realtime search while typeing
@@ -37,3 +39,10 @@ set foldlevelstart=10   " don't fold code by default
 set foldnestmax=10      " 10 nested fold max
 set foldmethod=indent   " fold based on indents
 nnoremap <space> za     " space bar for code folding
+
+" Soft wrap navigation
+noremap  <buffer> <silent> k gk
+noremap  <buffer> <silent> j gj
+noremap  <buffer> <silent> 0 g0
+noremap  <buffer> <silent> $ g$
+set wrap lbr            " Wrap long lines between words
