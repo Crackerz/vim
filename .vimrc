@@ -3,17 +3,12 @@
 " files
 execute pathogen#infect()
 
-" setup GOLANG
-filetype off
-filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax enable
-
 " Start personal customizations
-colorscheme molokai     " located in .vim/colors
-colorscheme molokai     " located in .vim/colors
+let g:solarized_termcolors=256
+syntax enable
 set t_Co=256            " 256 bit color
+set background=dark     " dark backrgound
+colorscheme solarized   " located in .vim/colors
 
 set tabstop=2           " 4 spaces per tab
 set shiftwidth=2        " indentation
