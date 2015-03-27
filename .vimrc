@@ -14,6 +14,8 @@ set tabstop=2           " 4 spaces per tab
 set shiftwidth=2        " indentation
 set expandtab           " tabs are Spaces
 filetype indent on      " indents based on filetype
+set list
+set listchars=tab:>-,trail:~,extends:>,precedes:<
 
 set number              " show line numbers
 set showcmd             " show current command
@@ -41,3 +43,6 @@ noremap  <buffer> <silent> j gj
 noremap  <buffer> <silent> 0 g0
 noremap  <buffer> <silent> $ g$
 set wrap lbr            " Wrap long lines between words
+
+" Tabs in Makefiles
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
